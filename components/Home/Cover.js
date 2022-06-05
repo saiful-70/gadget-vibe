@@ -33,7 +33,6 @@ const items = [
   "/assets/images/home-cover-10.jpg",
   "/assets/images/home-cover-11.jpg",
   "/assets/images/home-cover-12.jpg",
-  "/assets/images/home-cover-13.jpg",
 ];
 
 const Cover = () => {

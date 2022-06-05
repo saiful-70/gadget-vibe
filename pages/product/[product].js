@@ -18,7 +18,7 @@ import { useAppContext } from "../../context/state";
 import CommonCard from "../../components/Card/CommonCard";
 import { ProductPageLoadingSkeleton } from "../../components/Common/LoadingSekeleton";
 
-const PopularProducts = () => {
+const Product = () => {
   const { handleAddToCart } = useAppContext();
 
   const { query } = useRouter();
@@ -60,6 +60,7 @@ const PopularProducts = () => {
         >
           <Image src={data.image.url} alt={data.name} layout="fill" />
         </Grid>
+
         <Grid item xs={12} sm={12} md={6} lg={5}>
           <Box sx={{ display: "flex", flexDirection: "column", mx: 3 }}>
             <Typography variant="h5" gutterBottom="true">
@@ -118,8 +119,9 @@ const PopularProducts = () => {
             </Stack>
           </Box>
         </Grid>
+
         <Grid
-          container
+          item
           xs={12}
           sm={12}
           md={6}
@@ -143,7 +145,7 @@ const PopularProducts = () => {
             </Grid>
           ))}
         </Grid>
-        <Grid item xs={8}>
+        <Grid item xs={12} sm={12} md={8} lg={8}>
           <Typography
             gutterBottom
             variant="h6"
@@ -163,4 +165,4 @@ const PopularProducts = () => {
   );
 };
 
-export default PopularProducts;
+export default Product;

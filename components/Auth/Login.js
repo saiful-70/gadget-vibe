@@ -47,7 +47,7 @@ const Login = ({ setValue, handleClose }) => {
         setIsExist(true);
         const loginToken = await commerce.customer.login(
           email,
-          "http://localhost:3000/auth"
+          "https://gadget-vibe.vercel.app/auth"
         );
         flag = true;
         router.push("/auth/confirmation");
