@@ -6,7 +6,7 @@ const Body = styled("Box")(({ theme }) => ({
   margin: "0 auto",
   backgroundColor: theme.palette.background,
   minHeight: "100vh",
-  width: { lg: "80vw", md: "95vw", xs: "100%" },
+  width: { lg: "85vw", md: "95vw", xs: "100%" },
   // margin: "0 auto",
 }));
 
@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         sx={{
           margin: "0 auto",
           minHeight: "100vh",
-          width: { lg: "80vw", md: "95vw", xs: "100%" },
+          width: { lg: "85vw", md: "95vw", xs: "100%" },
         }}
       >
         {children}

@@ -21,7 +21,7 @@ const CommonCard = ({ imgSrc, name, price, href, formattedPrice }) => {
     <Card>
       <Link href={href}>
         <CardActionArea
-          sx={{ display: "flex", flexDirection: "column", height: "500px" }}
+          sx={{ display: "flex", flexDirection: "column", height: "700px" }}
         >
           <CardMedia
             component="img"
