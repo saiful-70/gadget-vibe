@@ -28,9 +28,9 @@ const PopularProducts = () => {
         Just for you
       </Typography>
       <Divider />
-      <Grid container spacing={2} sx={{ mt: 2 }}>
+      <Grid container spacing={3} sx={{ mt: 2 }}>
         {data.map((product) => (
-          <Grid item key={product.id} xs={12} sm={6} md={3} lg={2}>
+          <Grid item key={product.id} xs={12} sm={6} md={4} lg={3}>
             {/* <Box sx={{ cursor: "pointer" }}> */}
             {/* <Link href={`/product/${product.id}`}> */}
             <CommonCard

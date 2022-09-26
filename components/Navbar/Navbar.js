@@ -56,7 +56,7 @@ const Navbar = () => {
               Gadget Vibe
             </Typography>
           </Link>
-          <SearchBar />
+          {/* <SearchBar /> */}
           <Box sx={{ flexGrow: 1 }} />
           <Box
             sx={{

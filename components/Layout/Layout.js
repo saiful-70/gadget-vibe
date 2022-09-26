@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         sx={{
           margin: "0 auto",
           minHeight: "100vh",
-          width: { lg: "85vw", md: "95vw", xs: "100%" },
+          width: { lg: "90vw", md: "95vw", xs: "100%" },
         }}
       >
         {children}
