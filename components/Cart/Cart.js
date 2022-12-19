@@ -71,7 +71,7 @@ const Cart = () => {
                         }}
                       >
                         $
-                        {product.line_total.raw -
+                        {product.line_total.raw +
                           (25 / 100) * product.line_total.raw}
                       </Typography>
                       <Typography

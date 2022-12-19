@@ -50,7 +50,7 @@ const CommonCard = ({ imgSrc, name, price, href, formattedPrice }) => {
                 display: "inline",
               }}
             >
-              ${price - (25 / 100) * price}
+              ${price + (25 / 100) * price}
             </Typography>
             <Typography
               variant="body1"
